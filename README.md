@@ -23,7 +23,7 @@ Performance parameter (lift coefficient) determination and labelling
 •	foil.py
 •	flow_functions.py
 •	1 calculate trailing edge structure.py 
-•	rawbase_with_structure_info.pkl
+•	rawbase_with_structure_and_lift.pkl
 
 Structure prediction using TensorFlow DNNClassifier and DNNRegressor
 
