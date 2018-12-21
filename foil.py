@@ -124,8 +124,8 @@ def panel_parameters(afoil, is_directed=''):
 if __name__ == '__main__':
    
     
-    FOIL_DATABASE_FILE          = 'data/rawbase.pkl'
-    #FOIL_DATABASE_FILE          = 'testfoils.pkl'
+    FOIL_DATABASE_FILE          = 'data/rawbase_with_structure_and_lift.pkl'
+    #FOIL_DATABASE_FILE          = 'data/rawbase.pkl'
     foilsframe                  = get_foils_frame(FOIL_DATABASE_FILE)
     
     for i, row in foilsframe.iterrows():
