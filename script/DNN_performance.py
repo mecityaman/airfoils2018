@@ -178,8 +178,7 @@ if __name__ == '__main__':
         feature_cols    = [tf.feature_column.numeric_column(k) for k in FEATURES]
         regressor       = tf.estimator.DNNRegressor(feature_columns=feature_cols,
                                             hidden_units=hidden_units)
-                                            #,model_dir="/tmp/boston_model")
-        
+                                                   
         loss_score_         = []
         ww_list             = []
         predictions_list    = []
